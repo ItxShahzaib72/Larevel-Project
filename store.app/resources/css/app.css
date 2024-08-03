@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.profile-card {
+    background-color: #2c7a7b;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile-card .header {
+    background-color: #2c7a7b;
+    padding: 20px;
+    text-align: center;
+}
+.profile-card .header .avatar {
+    background-color: #f6ad55;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.profile-card .header .email {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.profile-card .content {
+    background-color: #1a202c;
+    padding: 20px;
+}
+.profile-card .content .sync-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profile-card .content .sync-status svg {
+    margin-right: 10px;
+}
+.profile-card .content .profiles {
+    margin-top: 20px;
+}
+.profile-card .content .profiles .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profile-card .content .profiles .profile .avatar {
+    background-color: #4a5568;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 10px;
+}
